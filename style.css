@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(255, 179, 37, 0.931);
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo{
+    width: 55%;
+}
+.logo img{
+    height: 45px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.get-started{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+.get-started a{
+    color: white;
+    text-decoration: none;
+}
+.hero-banner{
+    margin-top: 75px;
+    height: 450px;
+    background-color: rgba(255, 179, 37, 0.931);
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.first-half{
+    margin-left: 5%;
+    width: 52%;
+}
+.first-half h6{
+    margin-top: 15%;
+    font-size: 90px;
+}
+.first-half p{
+    margin-top: 3%;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.start-reading{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.other-half {
+    width: 48%;
+    padding-top: 3%;
+    text-align: right;
+    display: block;
+    justify-content: right;
+}
+.second i{
+    padding: 4px 0px 4px 4px ;
+    justify-content: right;
+    float: right;
+}
+.second i{
+    font-size: 15.5px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.part1{
+    display: block;
+    justify-content: left;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+.part1 i{
+    padding: 10px;
+}
+.pannel1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.part2{
+    padding: 20px;
+    background-color: white;
+    font-size: medium;
+    font-weight: 500;
+    justify-content: left;
+    
+}
+.part2 div{
+    display: flex;
+}
+.part2 div p{
+    padding-left: 10px;
+}
+.part2 .bold{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+.part2 .grey-color{
+    color: grey;
+}
+.part2 .grey{
+    color: grey;
+    font-size: 15px;
+}
+.part3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pannel-2{
+    display: flex;
+    margin: 30px;
+}
+.pannel-2 .div-1 .part3{
+    justify-content: left;
+}
+.pannel-2 .div-1{
+    width: 65%;
+    justify-content: left;
+    align-items: center;
+}
+.pannel-2 .div-1 .part3 .part2{
+    width: 60%;
+}
+.box{
+    display: flex;
+    width: 97%;
+}
+.icons{
+    display: flex;
+ }
+.date{
+    display: flex;
+    color: grey;
+    font-size: 15px;
+    justify-content: left;
+    width: 95%;
+}
+.karate{
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(253, 242, 242);
+    color: rgb(124, 122, 122);
+    border-radius: 15px;
+}
+.part3 .part2 span i{
+    color: rgb(246, 171, 31);
+    padding: 5px;
+}
+.pannel-2 .div-1 .part3{
+    padding: 15px;
+}
+.pannel-2 .div-2{
+    width: 35%;
+}
+.div-2{
+    position: sticky;
+    top: 1000px;
+}
+.first{
+    font-size: large;
+    font-weight: bold;
+    position: sticky;
+    top: 90px;
+}
+.second{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 110px;
+}
+.second a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 232, 232);
+    width: fit-content;
+    padding: 10px;
+    margin: 10px 10px 0px 10px; 
+    border-radius: 10px;
+}
+.third{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(205, 199, 199);
+    position: sticky;
+    top: 260px;
+}
+.fourth{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    position: sticky;
+    top: 330px;
+}
+.fourth a{
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+.nav-bar{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    border-bottom: 1px solid rgb(234, 229, 229);
+}
+.nav-bar .img{
+    width: 70%;
+    justify-content: left;
+    align-items: left;
+}
+.nav-bar img{
+    width: 20%;
+    padding: 10px;
+}
+.sign-in{
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+}
+.sign-up a{
+    color: black;
+    text-decoration: none;
+}
+.sign-up{
+    border: 1px solid rgb(234, 229, 229);
+    background-color: rgb(234, 229, 229);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    color: rgb(28, 27, 27);
+}
+.hero{
+    display: flex;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    font-size: 23px;
+    border-bottom: 1px solid rgb(234, 229, 229);
+}
+.hero .div-1{
+    width: 50%;
+    padding: 30px;
+    
+}
+.bold-text{
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.content-1{
+    margin-bottom: 40px;
+}
+.highlight{
+    margin: 5px;
+    font-size: 30px;
+    width: fit-content;
+    background-color: rgb(55, 54, 54);
+}
+.content-2{
+    margin-top: 40px;
+}
+.content-2 span{
+    text-decoration: underline;
+}
+.pannel-1{
+    height: 150px;
+    color: white;
+    background-color: rgb(28, 27, 27);
+    border-bottom: 1px solid rgb(234, 229, 229);
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pannel-1 div{
+    width: 93%;
+}
+.pannel-1:hover{
+    background-color: white;
+    color: rgb(28, 27, 27);
+}
