@@ -84,7 +84,7 @@
 
 }
 .img{
-    background-image: url("img-2.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/yogita-khanna/medium-clone/img-2.jpg");
     background-size: cover;
     height: 140px;
     width: 200px;
@@ -111,7 +111,7 @@
     margin-left: 10%;
     height: 250px;
     width: 250px;
-    background-image: url("img3.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/yogita-khanna/medium-clone/img3.png");
     background-size: cover;
     margin-right: 20px;
 }
@@ -149,7 +149,7 @@
     height: 85px;
 }
 .image-logo{
-    background-image: url(logo.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/yogita-khanna/medium-clone/logo.png);
     background-size: cover;
     text-align: left;
     height: 30px;
